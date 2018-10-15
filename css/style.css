@@ -114,7 +114,6 @@ body {
   font-size: 0px;
 }
 
-
 .--copy {
   color: var(--color-zero);
   font-weight: bold;
@@ -155,6 +154,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin-bottom: 80px;
+  background: var(--color-zero);
 }
 
 .main__top5::after,
