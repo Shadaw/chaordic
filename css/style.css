@@ -89,7 +89,7 @@ body {
 } 
 
 .header__content--input {
-  width: 250px;
+  width: 70vw;
   color: var(--color-fourth);
   margin: 5px;
   background: rgba(255, 255, 255, 0);
