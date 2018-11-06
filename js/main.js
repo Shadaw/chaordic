@@ -23,10 +23,10 @@ let valor = 0;
 
 button.onclick = function() {
   if (valor % 2 == 0) {
-    dados.then(function(response) {
+    dados.then( async function(response) {
       for(let i = 0; i <= response.data.length; i++){
         if(input.value === response.data[i].url) {
-          input.value = response.data[i].shortUrl
+          input.value = await response.data[i].shortUrl
         }
       }
     })
